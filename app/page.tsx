@@ -13,7 +13,7 @@ import { state_name } from "@/constant";
 import { cn } from "@/lib/utils";
 import { fetchUrl } from "@/lib/fetch-url";
 
-export const revalidate = 3600;
+export const revalidate = 0;
 
 export default async function Home() {
   const url = await fetchUrl();
